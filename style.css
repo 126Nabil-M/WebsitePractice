@@ -1,0 +1,21 @@
+body{
+
+    background-color: #157dd2;
+    color: YELLOW;
+
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+    text-align: justify;
+
+    font-family: "Kode Mono";
+
+    font-size: large;
+}
