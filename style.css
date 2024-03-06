@@ -4,10 +4,10 @@ body{
     color: YELLOW;
 
 
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -15,7 +15,7 @@ body{
 
     text-align: justify;
 
-    font-family: "Kode Mono";
+    font-family: "Kode Mono", serif;
 
     font-size: xx-large;
 
@@ -25,4 +25,11 @@ body{
         margin-right: auto;
         width: 40%;
     }
-}
+
+  text-align: center;
+    border: orangered;
+
+
+
+    }
+
