@@ -1,5 +1,6 @@
 let button;
 
+myFrutas.favFruit = undefined;
 <body>
 
 function textswitcheroo(){
@@ -18,8 +19,8 @@ function save(){
 
 
 function localSaver(){
-    const myFrutas = {favFruit:"Pomegranate", favColor:"Red", favVitamin:"C"};
     document.getElementById("Frutas").innerHTML = myFrutas.favFruit;
+    const myFrutas = {favFruit:"Pomegranate", favColor:"Red", favVitamin:"C"};
 }
 <button onClick="localSaver()">
 </button>
