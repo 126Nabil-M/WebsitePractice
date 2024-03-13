@@ -11,8 +11,9 @@ function newPage(){
 function newImage(){
 
 }
-
-let favFrutas;
+function save(){
+    document.getElementById("Red").value = "Red"
+}
 
 
 
