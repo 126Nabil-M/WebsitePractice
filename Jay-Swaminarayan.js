@@ -10,6 +10,7 @@ function newPage(){
     document.getElementById("omrc").innerHTML = www.kateskitchenkc.com/blog/pancakes-vs-waffles-breakfast-best
 }
 function newImage(){
+    document.getElementById("Crabby").innerHTML = "images/snazzyfox.webp"
 
 }
 function save(){
@@ -22,8 +23,6 @@ function localSaver(){
     document.getElementById("Frutas").innerHTML = myFrutas.favFruit;
     const myFrutas = {favFruit:"Pomegranate", favColor:"Red", favVitamin:"C"};
 }
-<button onClick="localSaver()">
-</button>
 
 
 
@@ -32,15 +31,11 @@ function localSaver(){
 
 
 
-<button onClick="textSwitcheroo()">
-</button>
 
-<button onClick="newPage()">
-Breakfast
-</button>
 
-<button onClick="newImage()">
-    Breakfast
-</button>
+
+
+
+
 
 </body>
